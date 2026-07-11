@@ -8,7 +8,7 @@ Design files, same addressing, same ecosystem compatibility, new engines.
 
 | Project | What it is |
 |---------|------------|
-| [microquasar](https://github.com/quasarnova-team/microquasar) | Pure-Python OPC UA servers from quasar Design files — no code generation, no C++. Oracle-parity-tested against quasar's own CI. |
+| [kilonova](https://github.com/quasarnova-team/kilonova) | Pure-Python OPC UA servers from quasar Design files — no code generation, no C++. Oracle-parity-tested against quasar's own CI. |
 
 *A quasar going nova: the same engine, shining brighter. Maintained by the quasar framework lead;
 [quasar-team](https://github.com/quasar-team) remains the home of the production C++ framework.*
