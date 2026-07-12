@@ -8,6 +8,7 @@ Design files, same addressing, same ecosystem compatibility, new engines.
 
 | Project | What it is |
 |---------|------------|
+| [supernova](https://github.com/quasarnova-team/supernova) | quasar + OPC UA Pub/Sub — the production C++ framework, forked and extended with publisher/subscriber support, both backends in parity. |
 | [kilonova](https://github.com/quasarnova-team/kilonova) | Pure-Python OPC UA servers from quasar Design files — no code generation, no C++. Oracle-parity-tested against quasar's own CI. |
 
 *A quasar going nova: the same engine, shining brighter. Maintained by the quasar framework lead;
