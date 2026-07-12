@@ -17,6 +17,8 @@ every engine serves the same server.
 | rednova | SCADA/HMI integration derived from the model. | planned |
 
 *Heritage: quasarnova builds on the lineage of the open-source
-[quasar framework](https://github.com/quasar-team/quasar) (LGPL-3.0), originally developed
-at CERN. supernova is a fork of quasar and preserves its copyright and license notices in
-full; kilonova is conformance-tested against quasar's own public CI suite.*
+[quasar framework](https://github.com/quasar-team/quasar) (LGPL-3.0), developed at CERN
+and running large-scale control systems for more than a decade. quasarnova is an
+independent project and is not affiliated with or endorsed by CERN. supernova is a fork
+of quasar and preserves its copyright and license notices in full; kilonova is
+conformance-tested against quasar's own public CI suite.*
