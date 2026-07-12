@@ -12,6 +12,7 @@ every engine serves the same server.
 | Engine | What it is | Status |
 |--------|------------|--------|
 | [supernova](https://github.com/quasarnova-team/supernova) | The C++ engine: full model-driven framework, extended with OPC UA Pub/Sub (publisher + subscriber) on both supported OPC UA stacks. | in development |
+| [hypernova](https://github.com/quasarnova-team/hypernova) | The next era of DIP — pub/sub data interchange on OPC UA Pub/Sub: registry with a live browser, publish/subscribe by name, boundary relays. Interop-proven against supernova and open62541. |
 | [kilonova](https://github.com/quasarnova-team/kilonova) | The Python engine: the same design file served in pure Python — no code generation, no compiler, live in seconds. [Docs](https://quasarnova-team.github.io/kilonova/) · [PyPI](https://pypi.org/project/kilonova/) | **shipping** — [![PyPI](https://img.shields.io/pypi/v/kilonova?label=pypi)](https://pypi.org/project/kilonova/) |
 | dwarfnova | Typed client libraries generated from the same design. | planned |
 | rednova | SCADA/HMI integration derived from the model. | planned |
