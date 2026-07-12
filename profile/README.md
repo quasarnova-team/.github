@@ -9,13 +9,13 @@ every engine serves the same server.
 
 **Website: [quasarnova-team.github.io](https://quasarnova-team.github.io/)**
 
-| Engine | What it is | Status |
-|--------|------------|--------|
+| Product | What it is | Status |
+|---------|------------|--------|
+| [kilonova](https://github.com/quasarnova-team/kilonova) | The Python engine: the same design file served in pure Python — no code generation, no compiler, live in seconds. Device simulators, test rigs, CI test doubles. [Docs](https://quasarnova-team.github.io/kilonova/) · [PyPI](https://pypi.org/project/kilonova/) | **shipping** — [![PyPI](https://img.shields.io/pypi/v/kilonova?label=pypi)](https://pypi.org/project/kilonova/) |
 | [supernova](https://github.com/quasarnova-team/supernova) | The C++ engine: full model-driven framework, extended with OPC UA Pub/Sub (publisher + subscriber, UADP over UDP) on both supported OPC UA stacks. [Pub/Sub docs](https://github.com/quasarnova-team/supernova/blob/master/Documentation/source/PubSub.rst) | **released — early** [![release](https://img.shields.io/github/v/release/quasarnova-team/supernova?label=release)](https://github.com/quasarnova-team/supernova/releases/latest) |
-| [hypernova](https://github.com/quasarnova-team/hypernova) | The next era of DIP — pub/sub data interchange on OPC UA Pub/Sub: registry with a live browser, publish/subscribe by name, boundary relays. Interop-proven against supernova and open62541. | **released — early** [![release](https://img.shields.io/github/v/release/quasarnova-team/hypernova?label=release)](https://github.com/quasarnova-team/hypernova/releases/latest) |
-| [kilonova](https://github.com/quasarnova-team/kilonova) | The Python engine: the same design file served in pure Python — no code generation, no compiler, live in seconds. [Docs](https://quasarnova-team.github.io/kilonova/) · [PyPI](https://pypi.org/project/kilonova/) | **shipping** — [![PyPI](https://img.shields.io/pypi/v/kilonova?label=pypi)](https://pypi.org/project/kilonova/) |
-| dwarfnova | Typed client libraries generated from the same design. | planned |
-| rednova | SCADA/HMI integration derived from the model. | planned |
+| [hypernova](https://github.com/quasarnova-team/hypernova) | The data-interchange fabric: DIP's proven shape — named publications, a registry with a live browser, subscribe by name, boundary relays — rebuilt on OPC UA Pub/Sub. Python & Java clients. | **released — early** [![release](https://img.shields.io/github/v/release/quasarnova-team/hypernova?label=release)](https://github.com/quasarnova-team/hypernova/releases/latest) |
+
+*Roadmap: typed client libraries (dwarfnova) and SCADA/HMI integration (rednova) are planned — no cards until they ship.*
 
 *Heritage: quasarnova builds on the lineage of the open-source
 [quasar framework](https://github.com/quasar-team/quasar) (LGPL-3.0), developed at CERN
