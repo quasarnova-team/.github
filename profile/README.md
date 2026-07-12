@@ -1,15 +1,22 @@
 # quasarnova
 
-**The next generation of the [quasar](https://github.com/quasar-team) ecosystem.**
+**Model-driven OPC UA servers for industrial control — one design file, a complete server.**
 
-quasar generates industrial-grade OPC UA servers from a single Design file and has served
-CERN's experiments for over a decade. quasarnova is where its next era is built — same
-Design files, same addressing, same ecosystem compatibility, new engines.
+You describe your device in a single XML design; a quasarnova engine turns it into a
+running, standards-compliant OPC UA server. The design is the single source of truth —
+address space, configuration validation and device-logic plumbing come for free, and
+every engine serves the same server.
 
-| Project | What it is |
-|---------|------------|
-| [supernova](https://github.com/quasarnova-team/supernova) | quasar + OPC UA Pub/Sub — the production C++ framework, forked and extended with publisher/subscriber support, both backends in parity. |
-| [kilonova](https://github.com/quasarnova-team/kilonova) | Pure-Python OPC UA servers from quasar Design files — no code generation, no C++. Oracle-parity-tested against quasar's own CI. |
+**Website: [quasarnova-team.github.io](https://quasarnova-team.github.io/)**
 
-*A quasar going nova: the same engine, shining brighter. Maintained by the quasar framework lead;
-[quasar-team](https://github.com/quasar-team) remains the home of the production C++ framework.*
+| Engine | What it is | Status |
+|--------|------------|--------|
+| [supernova](https://github.com/quasarnova-team/supernova) | The C++ engine: full model-driven framework, extended with OPC UA Pub/Sub (publisher + subscriber) on both supported OPC UA stacks. | in development |
+| [kilonova](https://github.com/quasarnova-team/kilonova) | The Python engine: the same design file served in pure Python — no code generation, no compiler, live in seconds. [Docs](https://quasarnova-team.github.io/kilonova/) · [PyPI](https://pypi.org/project/kilonova/) | **v1.1 — shipping** |
+| dwarfnova | Typed client libraries generated from the same design. | planned |
+| rednova | SCADA/HMI integration derived from the model. | planned |
+
+*Heritage: quasarnova builds on the lineage of the open-source
+[quasar framework](https://github.com/quasar-team/quasar) (LGPL-3.0), originally developed
+at CERN. supernova is a fork of quasar and preserves its copyright and license notices in
+full; kilonova is conformance-tested against quasar's own public CI suite.*
